@@ -1,3 +1,10 @@
+# 排除所有.开头的隐藏文件:
+.*
+
+# 不排除.gitignore:
+!.gitignore
+
+
 logs/
 conf.d/*.conf
 !conf.d/.default.conf
