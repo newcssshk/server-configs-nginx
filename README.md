@@ -141,7 +141,7 @@ cd /etc/nginx/conf.d
 
   ```bash
   cp templates/example.com.conf .actual-hostname.conf
-  sed -i 's/example.com/actual-hostname/g' .actual-hostname.conf
+  sed -i 's/example.com/appcanyou.com/g' appcanyou.com.conf
   ```
 
 * Enabling a site
